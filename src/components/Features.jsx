@@ -79,8 +79,9 @@ export default function OurApp() {
                     <div class="device-wrapper">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen bg-black">
+                            <img class="img-fluid " style={{ width: '100%', height: '100%' }} src="assets/img/file.PNG" alt="..." />
                                 
-                                <video muted="muted" autoplay="" loop="" style={{ width: '100%', height: '100%' }}><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                {/* <video muted="muted" autoplay="" loop="" style={{ width: '100%', height: '100%' }}><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video> */}
                             </div>
                         </div>
                     </div>

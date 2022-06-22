@@ -50,7 +50,7 @@ export default function Modal() {
             
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                  
-                    <div class="d-grid"><button class="btn btn-primary rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
+                    <div class="d-grid"><button class="btn btn-success rounded-pill btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                 </form>
             </div>
         </div>

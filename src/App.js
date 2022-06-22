@@ -5,9 +5,10 @@ import Mission from './components/Mission';
 import Features from './components/Features';
 import WhatWeDo from './components/WhatWeDo';
 import Advertise from './components/Advertise';
-import GetApp from './components/GetApp';
+import Invest from './components/Invest';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
+import Goals from './components/Goals';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
     <Features /> 
      <WhatWeDo />
      <Advertise />
-      <GetApp />
+     <Goals />
+      <Invest />
       <Footer />
   <Modal />
         
